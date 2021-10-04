@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Domain.fs" />
+        <Compile Include="Contracts.fs" />
+        <Compile Include="CrossCutting.fs" />
+        <Compile Include="Controller.fs" />
+        <Compile Include="Client.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Components" Version="6.0.0-rc.2.21451.2" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+      <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0-rc.2.21431.13" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0-rc.2.21431.13" />
+      <PackageReference Include="Ply" Version="0.3.1" />
+      <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>

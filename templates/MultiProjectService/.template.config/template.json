@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Igor Bagdamyan",
+    "classifications": [ "Common", "Service", "F#5", "Web", "AspNetCore" ],
+    "identity": "Services.MultiProject",
+    "name": "Web service split between 5 project with proper dependency graph",
+    "shortName": "multiprojwebservice",
+    "tags": {
+      "language": "F#",
+      "type": "project"
+    },
+    "preferNameDirectory": true,
+    "sourceName": "Services.MultiProject",
+    "symbols": {
+      "ProjectName": {
+        "type": "parameter",
+        "defaultValue": "Services.MultiProject",
+        "replaces": "ProjectName",
+        "fileRename": "ProjectName"
+      }
+    }
+  }

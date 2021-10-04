@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Igor Bagdamyan",
+    "classifications": [ "Common", "Service", "F#5", "Web", "AspNetCore" ],
+    "identity": "Services.SingleProject",
+    "name": "Example web service containing all the files in single unified project",
+    "shortName": "singleprojwebservice",
+    "tags": {
+      "language": "F#",
+      "type": "project"
+    },
+    "preferNameDirectory": true,
+    "sourceName": "Services.SingleProject",
+    "symbols": {
+      "ProjectName": {
+        "type": "parameter",
+        "defaultValue": "Services.SingleProject",
+        "replaces": "ProjectName",
+        "fileRename": "ProjectName"
+      }
+    }
+  }
